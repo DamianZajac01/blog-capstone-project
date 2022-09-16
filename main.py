@@ -41,7 +41,7 @@ def admin_only(function):
 
 
 # CONNECT TO DB
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///blog.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://test_database_zd4i_user:pma8SWKLPAAQhl9O1D6EOtQ5m05IfAhW@dpg-ccib4tcgqg4ahcnjmhfg-a/test_database_zd4i'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
